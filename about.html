@@ -6,26 +6,37 @@
   <head>
     <meta charset="utf-8">
     <title>About Tyler Waite</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
   </head>
   
   <body>
     
     <header>
       <!--Logo, site name, main nav-->
-      <img src="images/tyler-waite.jpg" alt="charicature of Tyler Waite">
-      <h1>Tyler's Portfolio Site</h1>
-      <nav>
-        <a href="projects.html">Projects</a>
-        <a href="#">Education</a>
-        <a href="#">Work History</a>
-        <a href="about.html">About</a>
+      <h1 id="logo">UX508</h1> 
+      <h3 id="tagline">"Helping you navigate the web design process."</h3>
+      
+      <nav id="menu">
+        <ul>
+          <li><a href="research.html">Research</a>
+          <li><a href="requirements.html">Requirements</a></li>
+          <li><a href="design.html">Design</a></li>
+          <li><a href="development.html">Development</a></li>
+          <li><a href="about.html">About</a>
+   <!--         <ul class="submenu">
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="resume.html">Work History</a></li>
+            </ul>-->
+          </li>
+        </ul>  
       </nav>
     </header>
   
     <article>
     <!--About me bullets and summary.-->
       <h2>About me</h2>
-  
+      <img src="images/tyler-waite.jpg" alt="charicature of Tyler Waite">
       <ul>
         <li>Degrees in Psychology, Human Factors, and Information Science</li>
         <li>14 years total experience working in user experience, interface design, and business analysis</li>
@@ -39,12 +50,40 @@
         <h2>Summary</h2>
         <p>I was born in Ogden, Utah.  I have studied Psychology, Human Factors, and Information Science.  I have worked as a User Researcher, Interaction Designer, and dabble in Business Analyst type work.  I have taken classes in Basic, Fortran, Pascal, C#, Java, HTML, CSS, and dabbled in HTML 5, CSS, and Javascript on my own.  I am taking this class to become as the recruiters call it "a unicorn."  Someone who is skilled in front end development, as well as interface design and user experience.</p>
       </summary>
-  
+   <!--headline, article, img-->
+      <h2>Project Highlights</h2>
+
+      <!--"list several projects, each with a title and small image."-->
+      <ul>
+        <li>
+          <h2>Project 1: Intel App Up</h2> 
+          <figure>
+            <img src="images/app-up.jpg" alt="Visual design done for Intel App-Up Win 8 style.">
+            <figcaption>Design I helped create at Intel for their App-Up app store.</figcaption>
+          </figure>
+        </li>
+      
+        <li>
+          <h2>Project 2: Microsoft Volume Licensing</h2> 
+          <figure>
+            <img src="images/vol-lics.png" alt="Microsoft Volume Licensing wireframe.">
+            <figcaption>Design I created while working with Microsoft's Volume Licensing team.</figcaption>
+          </figure>
+        </li>
+      
+        <li>
+          <h2>Project 3: ARATTA</h2> 
+          <figure>
+            <img src="images/aratta.png" alt="Visual design of Augmented reality air traffic tower application.">
+            <figcaption>Design I created while working at Information in Place Inc.  It is an augmented reality air traffic tower application to help tower controllers track and identify aircraft on the tarmac.</figcaption>
+          </figure>
+        </li>
+      </ul>
     </article>
-  
-    <footer>
+
     <!--copyright info, contact info-->
-      <p> Copyright <time datetime="2014-10-16 19:51">Oct 16, 2014</time>, <a href="mailto:waite.tyler@gmail.com">Tyler Waite</a></p>
+    <footer>
+      <p> Copyright <time datetime="2014-10-26">Oct 26, 2014</time>, <a href="mailto:waite.tyler@gmail.com">UX508 Consulting LLC</a></p>
     </footer>
   
   </body>

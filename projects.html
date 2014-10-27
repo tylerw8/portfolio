@@ -1,30 +1,39 @@
 <!doctype html>
-<html lang="en">
-<!--"One of the pages should be for selected projects (save it as projects.html)"-->
-<!--Tyler Waite's Lesson 02 Assignment projects.html-->
-  
+<html lang="en">  
+<!--Tyler Waite's Lesson 03 Projects Page-->
   <head>
     <meta charset="utf-8">
     <title>Projects</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
   </head>
   
   <body>
     
     <header>
       <!--Logo, site name, main nav-->
-      <img src="images/tyler-waite.jpg" alt="charicature of Tyler Waite">
-      <h1>Tyler's Portfolio Site</h1>
-      <nav>
-        <a href="projects.html">Projects</a>
-        <a href="#">Education</a>
-        <a href="#">Work History</a>
-        <a href="about.html">About</a>
+      <h1 id="logo">UX508</h1> 
+      <h3 id="tagline">"Helping you navigate the web design process."</h3>
+      
+      <nav class="menu">
+        <ul>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="requirements.html">Requirements</a></li>
+          <li><a href="design.html">Design</a></li>
+          <li><a href="development.html">Development</a></li>
+          <li><a href="about.html">About</a>
+          <!--<ul class="submenu">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="resume.html">Work History</a></li>
+            </ul>-->
+          </li>
+        </ul>
       </nav>
     </header>
     
     <article>
       <!--headline, article, img-->
-      <h2>Stuff I've done</h2>
+      <h2 class="title">Project Highlights</h2>
 
       <!--"list several projects, each with a title and small image."-->
       <ul>
@@ -73,7 +82,7 @@
     
     <footer>
       <!--copyright infor, contact info-->
-      <p> Copyright <time datetime="2014-10-16 19:51">Oct 16, 2014</time>, <a href="mailto:waite.tyler@gmail.com">Tyler Waite</a></p>
+      <p> Copyright <time datetime="2014-10-26">Oct 26, 2014</time>, <a href="mailto:waite.tyler@gmail.com">UX508 Consulting LLC</a></p>
     </footer>
 
   </body>
