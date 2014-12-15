@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  	<head>
+     		<title>Phase 4 Consulting</title>
+     		<meta name-“viewport” content=“width=device-width, initial-scale=1.0:>
+     		<link href=“css/bootstrap.min.css” rel=“stylesheet” media=“screen”>
+     	<!—HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries —>
+     	<!—[if lt IE9]>
+        		<script src=“../../assets/js/html5shiv.js”></script>
+        		<script src=“../../assets/js/respond.min.js”></script>
+     	<![endif]—>
+	</head>
+<body>
+	<div class=“container”>
+		<header class=“page-header”>
+		<ul>
+			<li><a href=“#>Home</li>
+			<li><a href=“#>Portfolio</li>
+			<li><a href=“#>Experience</li>
+			<li><a href=“#>Contact</li>
+		</ul>
+		<h3>Phase 4 Consulting Logo</h3>
+		</header>
+
+		<div>
+			<h1>Phase 4 Consulting</h1>
+			<p>User Centered Research, Design, Development, and Testing</p>
+			<p><a href=“#”>Download the app!</a></p>
+		</div>
+
+		<footer>
+		<p>&copy; 2014 Phase 4 Design - By UX508 Consulting</p>
+		</footer>
+	</div>
+</body>
+</html>
